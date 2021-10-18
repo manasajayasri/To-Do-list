@@ -40,7 +40,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-               Add something to do..
+               Add something to your day..
                <br/>
                <input type="text"
                placeholder="Type item here.."
@@ -59,7 +59,7 @@ class App extends Component {
                            <li key={item.id}>
                             {item.value}
                             <button onClick={() => this.deleteItem(item.id)}>
-                                X
+                                Strikeee!
                             </button>
                             </li>
                        )
